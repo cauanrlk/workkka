@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Inicial</title>
+    <link rel="stylesheet" type="text/css" href="form.css" media="">
+
+
+</head>
+<body>
+    
+    
+    <div>
+        <h1>Cadastro Inicial</h1>
+        <p>Complete suas informações</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input placeholder="Insira Seu Nome" type="text" name="nome" id="nome" required>
+            </div>
+            </fieldset>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input placeholder="Insira Seu Sobrenome" type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input placeholder="Insira Seu Email" type="text" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label><strong>Jogos</strong></label>
+                <select id="games">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Fortnite</option>
+                    <option>CS:GO</option>
+                    <option>Valorant</option>
+                    <option>Fifa</option>
+                    <option>GTA V</option>
+                    <option>Rocket League</option>
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>Selecione o nivel de conhecimento que tem sobre os jogos atuais:</strong></label><br><br>
+                    <input type="checkbox" id="nivel1" name="nivel1" value="excelente">
+                    <label for="nivel1">Excelente</label>
+                    <input type="checkbox" id="nivel2" name="nivel2" value="bom">
+                    <label for="nivel2">Bom</label>
+                    <input type="checkbox" id="nivel3" name="nivel3" value="medio">
+                    <label for="nivel3">Médio</label>
+                    <input type="checkbox" id="nivel4" name="nivel4" value="pouco">
+                    <label for="nivel4">Pouco</label>
+                    <input type="checkbox" id="nivel5" name="nivel5" value="nenhum">
+                    <label for="nivel5">Nenhum</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label><strong>Conte um pouco da sua experiência de jogos:</strong></label>
+                <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+             <a href="mobileFirst.html">Concluído</a>
+           
+
+
+
+
+
+    </form>
+
+
+    
+</body>
+</html>
